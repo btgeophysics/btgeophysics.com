@@ -1,0 +1,23 @@
+<div class="portfolio-modal modal fade" id="{{ .Params.modalId }}" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <div class="modal-body">
+                            <p class="text-center title-text">{{ .Params.modalTitle | default .Title }}</p>
+                            {{ $img := .Params.modalImage | default .Params.image }}
+                            <img class="img-fluid img-centered" src="{{ $img }}" alt="{{ .Title }}">
+                            {{ .Content }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,423 @@
+// BTG Custom Styles (ported from btg.css, adapted for Bootstrap 5)
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 35px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: white;
+}
+
+p {
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+@media (min-width: 1024px) {
+    p {
+        margin: 0 0 35px;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+}
+
+a {
+    color: #6588a7;
+    transition: all .2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #1d9b6c;
+}
+
+// Navbar
+.navbar-custom {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    text-transform: uppercase;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #9D9D9D;
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: 800;
+    display: inline;
+}
+
+.navbar-brand > img {
+    height: 30px;
+    display: inline;
+    padding-right: 10px;
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom .navbar-toggler {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #000;
+    border: none;
+}
+
+.navbar-custom .navbar-toggler:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.navbar-custom a,
+.navbar-custom .nav-link {
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar-custom .nav-link {
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav-link:hover {
+    outline: 0;
+    color: rgba(255, 255, 255, .8);
+    background-color: transparent;
+}
+
+.navbar-custom .nav-link:focus,
+.navbar-custom .nav-link:active {
+    outline: 0;
+    background-color: transparent;
+}
+
+.navbar-custom .nav-item.active .nav-link {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.navbar-custom .nav-item.active .nav-link:hover {
+    color: #fff;
+}
+
+@media (min-width: 1024px) {
+    .navbar-custom {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: transparent;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        padding: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, .3);
+        background: #9D9D9D;
+    }
+}
+
+// Intro / Hero
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(/img/ut4.jpg) no-repeat bottom center scroll;
+    background-color: #000;
+    background-size: cover;
+}
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: top;
+    padding-top: 40px;
+    background-color: rgba(200, 200, 200, 0.2);
+}
+
+.intro .intro-body .container {
+    margin-left: 100px;
+}
+
+.brand-text {
+    color: black;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: left;
+    padding-top: 150px;
+}
+
+.brand-logo {
+    width: 100%;
+    margin: auto;
+    padding: 100px;
+    background: url(/img/BTG_Logo_Symbol_new.png) no-repeat top center scroll;
+    background-color: transparent;
+    background-size: contain;
+}
+
+.intro .intro-body .intro-text {
+    font-size: 28px;
+    color: #000;
+}
+
+@media (max-width: 1024px) {
+    .intro .intro-body .brand-text {
+        text-align: center;
+    }
+
+    .intro .intro-body .container {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+
+    .intro .intro-body .brand-heading {
+        font-size: 60px;
+    }
+}
+
+// Content sections
+.content-section {
+    padding-top: 100px;
+}
+
+@media (min-width: 1023px) {
+    .content-section {
+        padding-top: 150px;
+    }
+}
+
+// Buttons
+.btn {
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    transition: all .3s ease-in-out;
+}
+
+// Footer
+footer {
+    padding: 50px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+// Selection
+::selection {
+    text-shadow: none;
+    background: rgba(255, 255, 255, .2);
+}
+
+img::selection {
+    background: transparent;
+}
+
+// Portfolio / Services
+#portfolio .portfolio-item {
+    margin: 0 0 15px;
+    right: 0;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    background: rgba(51, 122, 183, 0.7);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 1;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    top: 50%;
+    margin-top: -12px;
+    color: white;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+    margin-top: -12px;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    height: 90px;
+    padding: 25px;
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    color: black;
+    vertical-align: middle;
+}
+
+#portfolio * {
+    z-index: 2;
+}
+
+@media (min-width: 1023px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+}
+
+// Portfolio Modals
+.portfolio-modal .modal-dialog {
+    margin: 0;
+    height: 100%;
+    width: auto;
+}
+
+.portfolio-modal .modal-content {
+    border-radius: 0;
+    background-clip: border-box;
+    box-shadow: none;
+    border: none;
+    min-height: 100%;
+    padding: 100px 0;
+    text-align: left;
+    color: black;
+}
+
+.portfolio-modal .modal-content h2 {
+    margin-bottom: 15px;
+    font-size: 3em;
+}
+
+.portfolio-modal .modal-content p {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content p.item-intro {
+    margin: 20px 0 30px;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.portfolio-modal .modal-content ul {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.title-text {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+.modal-image {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: 0.3;
+}
+
+.portfolio-modal .close-modal .lr {
+    height: 75px;
+    width: 1px;
+    margin-left: 35px;
+    background-color: #222;
+    transform: rotate(45deg);
+    z-index: 1051;
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    height: 75px;
+    width: 1px;
+    background-color: #222;
+    transform: rotate(90deg);
+    z-index: 1052;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+// Map
+#map-canvas {
+    height: 500px;
+}
+
+// Font Awesome custom colors
+.fa-ul > li {
+    margin-top: 2em;
+    margin-left: 3em;
+    padding-left: 1em;
+    font-size: 20px;
+}
+
+.fa-yellow {
+    color: rgb(255, 255, 50);
+}
+
+.fa-black {
+    color: rgb(0, 0, 0);
+}
+
+.ut-title {
+    text-transform: none;
+}

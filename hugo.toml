@@ -1,0 +1,16 @@
+baseURL = "https://btgeophysics.com/"
+languageCode = "en-us"
+title = "Black Tusk Geophysics"
+disableKinds = ["taxonomy", "term", "section"]
+
+[params]
+  description = "Industry-leading experts in detection and classification of unexploded ordnance"
+  email = "info@btgeophysics.com"
+  phone = "604 428 3382"
+  address = "#401-1755 Broadway W"
+  city = "Vancouver, BC V6J 4S5"
+  country = "Canada"
+  btfieldURL = "https://btfield.btgeophysics.com"
+  fontAwesomeKit = "https://kit.fontawesome.com/d2511de6f4.js"
+  googleMapsKey = "AIzaSyAHbs7RLTGUYQomTmSEg2oqjgihEMiIhcM"
+  timelineURL = "https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=173Ji37hK_kc8-4geb0fjRwptCp5btjCkQEh7trbGROU&font=Default&lang=en&initial_zoom=2&height=650&start_at_end=true"

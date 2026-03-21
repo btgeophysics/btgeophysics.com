@@ -1,0 +1,165 @@
+{{ define "main" }}
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+    <div class="container">
+        <a href="#page-top" id="navlogo" class="navbar-brand d-none"><img src="/img/BTG_Logo_Symbol.gif" alt="BTG">BTG</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <i class="fa fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ut-title page-scroll" href="#ultratem">UltraTEM</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ .Site.Params.btfieldURL }}" target="_blank">BTField</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#portfolio">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Intro Header -->
+<header class="intro">
+    <div class="intro-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="brand-logo"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="brand-text">{{ .Site.Params.description }}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- About Section -->
+<section id="about" class="container content-section text-start">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading title-text">About</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+            {{ .Content }}
+        </div>
+    </div>
+</section>
+
+<!-- UltraTEM Section -->
+{{ partial "ultratem.html" . }}
+
+<!-- Services Section -->
+<section id="portfolio" class="container content-section">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading title-text">Services</h2>
+        </div>
+    </div>
+    <div class="row">
+        {{ range where .Site.RegularPages "Section" "services" }}
+        <div class="col-md-6 col-sm-6 portfolio-item">
+            <a href="#{{ .Params.modalId }}" class="portfolio-link" data-bs-toggle="modal">
+                <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                        <i class="fa fa-plus fa-2x"></i>
+                    </div>
+                </div>
+                <img src="{{ .Params.image }}" class="img-fluid" alt="{{ .Title }}">
+            </a>
+            <div class="portfolio-caption">
+                <p>{{ .Title }}</p>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="container content-section">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading title-text">Projects</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 text-center">
+            <a href="{{ .Site.Params.timelineURL }}" target="_blank">
+                <div class="portfolio-hover">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-clock-o fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+            </a>
+            <p>Project Timeline</p>
+        </div>
+        <div class="col-md-6 text-center">
+            <a href="#projectMapModal" class="portfolio-link" data-bs-toggle="modal">
+                <div class="portfolio-hover">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-globe fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+            </a>
+            <p>Project Map</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="container content-section text-start">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading title-text">Contact</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="text-center">
+            <p>{{ .Site.Params.address }}<br>{{ .Site.Params.city }}<br>{{ .Site.Params.country }}</p>
+            <p>Phone: {{ .Site.Params.phone }}</p>
+            <p><a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></p>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container text-center">
+        <p>Copyright &copy; BTG {{ now.Year }}</p>
+    </div>
+</footer>
+
+<!-- Service Modals -->
+{{ range where .Site.RegularPages "Section" "services" }}
+{{ partial "service-modal.html" . }}
+{{ end }}
+
+<!-- Project Map Modal -->
+{{ partial "project-map-modal.html" . }}
+
+{{ end }}
+
+{{ define "scripts" }}
+{{ partial "project-map-scripts.html" . }}
+{{ end }}

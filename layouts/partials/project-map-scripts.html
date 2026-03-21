@@ -1,0 +1,63 @@
+<script>
+var mapInitialized = false;
+
+// Project data from Hugo data file
+var projectData = {{ $.Site.Data.projects | jsonify | safeJS }};
+
+document.addEventListener('DOMContentLoaded', function() {
+    var mapModal = document.getElementById('projectMapModal');
+    if (mapModal) {
+        mapModal.addEventListener('shown.bs.modal', function() {
+            if (!mapInitialized) {
+                initProjectMap();
+                mapInitialized = true;
+            } else {
+                google.maps.event.trigger(window.projectMap, 'resize');
+            }
+        });
+    }
+});
+
+function initProjectMap() {
+    var mapOptions = {
+        zoom: 2,
+        center: { lat: 41.4, lng: -102.7 },
+        mapTypeId: 'roadmap',
+        minZoom: 2
+    };
+
+    window.projectMap = new google.maps.Map(
+        document.getElementById('map-canvas'),
+        mapOptions
+    );
+
+    var infoWindow = new google.maps.InfoWindow();
+
+    projectData.forEach(function(project) {
+        var marker = new google.maps.Marker({
+            position: { lat: project.lat, lng: project.lon },
+            map: window.projectMap,
+            title: project.headline
+        });
+
+        var dateStr = project.startDate;
+        if (project.endDate) {
+            dateStr += ' - ' + project.endDate;
+        }
+
+        var content = '<div style="max-width:400px;color:#333;">' +
+            '<h6 style="margin:0 0 8px;">' + project.headline + ' (' + dateStr + ')</h6>' +
+            '<p style="font-size:14px;margin:0 0 8px;">' + project.text + '</p>';
+        if (project.media) {
+            content += '<img src="' + project.media + '" alt="' + project.headline + '" style="width:100%;max-width:300px;">';
+        }
+        content += '</div>';
+
+        marker.addListener('click', function() {
+            infoWindow.setContent(content);
+            infoWindow.open(window.projectMap, marker);
+        });
+    });
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key={{ .Site.Params.googleMapsKey }}" async defer></script>
