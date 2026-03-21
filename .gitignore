@@ -1,0 +1,25 @@
+# Legacy ASP.NET site
+old/
+
+# Empty test directory
+testing/
+
+# GIMP source files
+*.xcf
+
+# Hugo build output
+public/
+resources/_gen/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*~
+.vscode/
+.idea/
+
+# Node modules (if Bootstrap installed via npm)
+node_modules/
