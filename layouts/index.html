@@ -3,7 +3,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
     <div class="container">
-        <a href="#page-top" id="navlogo" class="navbar-brand d-none"><img src="/img/BTG_Logo_Symbol.gif" alt="BTG">BTG</a>
+        <a href="#page-top" id="navlogo" class="navbar-brand d-none"><img src="{{ "img/BTG_Logo_Symbol.gif" | relURL }}" alt="BTG">BTG</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <i class="fa fa-bars"></i>
         </button>
@@ -34,12 +34,12 @@
 </nav>
 
 <!-- Intro Header -->
-<header class="intro">
+<header class="intro" style="background-image: url('{{ "img/ut4.jpg" | relURL }}');">
     <div class="intro-body">
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
-                    <div class="brand-logo"></div>
+                    <div class="brand-logo" style="background-image: url('{{ "img/BTG_Logo_Symbol_new.png" | relURL }}');"></div>
                 </div>
             </div>
             <div class="row">
@@ -84,7 +84,7 @@
                         <i class="fa fa-plus fa-2x"></i>
                     </div>
                 </div>
-                <img src="{{ .Params.image }}" class="img-fluid" alt="{{ .Title }}">
+                <img src="{{ .Params.image | relURL }}" class="img-fluid" alt="{{ .Title }}">
             </a>
             <div class="portfolio-caption">
                 <p>{{ .Title }}</p>

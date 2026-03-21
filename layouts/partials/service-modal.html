@@ -12,7 +12,7 @@
                         <div class="modal-body">
                             <p class="text-center title-text">{{ .Params.modalTitle | default .Title }}</p>
                             {{ $img := .Params.modalImage | default .Params.image }}
-                            <img class="img-fluid img-centered" src="{{ $img }}" alt="{{ .Title }}">
+                            <img class="img-fluid img-centered" src="{{ $img | relURL }}" alt="{{ .Title }}">
                             {{ .Content }}
                         </div>
                     </div>
