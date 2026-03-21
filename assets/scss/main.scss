@@ -417,7 +417,16 @@ img::selection {
 
 // Map
 #map-canvas {
-    height: 500px;
+    height: 100%;
+    min-height: 500px;
+}
+
+#projectMapModal .modal-content {
+    padding: 0;
+}
+
+#projectMapModal .close-modal {
+    z-index: 10;
 }
 
 // Font Awesome custom colors
