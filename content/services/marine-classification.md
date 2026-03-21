@@ -1,7 +1,7 @@
 ---
 title: "Marine classification"
 modalTitle: "Marine classification"
-image: "/img/PMbomb.jpg"
+image: "img/PMbomb.jpg"
 weight: 4
 modalId: "services_Marine"
 ---

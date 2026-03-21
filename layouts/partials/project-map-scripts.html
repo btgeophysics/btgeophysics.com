@@ -50,7 +50,7 @@ function initProjectMap() {
             '<h6 style="margin:0 0 8px;">' + project.headline + ' (' + dateStr + ')</h6>' +
             '<p style="font-size:14px;margin:0 0 8px;">' + project.text + '</p>';
         if (project.media) {
-            var mediaURL = baseURL.replace(/\/$/, '') + project.media;
+            var mediaURL = baseURL.replace(/\/$/, '') + '/' + project.media;
             content += '<img src="' + mediaURL + '" alt="' + project.headline + '" style="width:100%;max-width:300px;">';
         }
         content += '</div>';

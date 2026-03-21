@@ -1,7 +1,7 @@
 ---
 title: "MPV Data acquisition"
 modalTitle: "Data acquisition with the MPV sensor"
-image: "/img/acrossslopedynamic.JPG"
+image: "img/acrossslopedynamic.JPG"
 weight: 1
 modalId: "services_MPV"
 ---

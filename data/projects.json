@@ -4,7 +4,7 @@
     "startDate": "2009",
     "endDate": "2011",
     "text": "Dynamic and cued MPV data collection and processing at the Former Camp Beale live site ESTCP demonstration.",
-    "media": "/img/casestudies/Beale1b.jpg",
+    "media": "img/casestudies/Beale1b.jpg",
     "lat": 39.1266,
     "lon": -121.3577
   },
@@ -13,7 +13,7 @@
     "startDate": "2010",
     "endDate": "2012",
     "text": "Dynamic and cued MPV data collection and processing at the Former Camp San Luis Obispo ESTCP demonstration.",
-    "media": "/img/casestudies/SLO1b.jpg",
+    "media": "img/casestudies/SLO1b.jpg",
     "lat": 35.2417,
     "lon": -120.6650
   },
@@ -22,7 +22,7 @@
     "startDate": "2010",
     "endDate": "2011",
     "text": "Cued MPV data collection and processing at the Former Camp Sibert ESTCP demonstration.",
-    "media": "/img/casestudies/Sibert1b.jpg",
+    "media": "img/casestudies/Sibert1b.jpg",
     "lat": 33.9530,
     "lon": -86.0833
   },
@@ -31,7 +31,7 @@
     "startDate": "2011",
     "endDate": "2012",
     "text": "Dynamic and Cued MPV data collection and processing at the Former Camp Butner ESTCP demonstration.",
-    "media": "/img/casestudies/Butner1b.jpg",
+    "media": "img/casestudies/Butner1b.jpg",
     "lat": 36.1315,
     "lon": -78.7834
   },
@@ -40,7 +40,7 @@
     "startDate": "2012",
     "endDate": "2014",
     "text": "Dynamic MetalMapper data collection at the Amundsen-Scott South Pole Station for the National Science Foundation.",
-    "media": "/img/casestudies/Pole1b.JPG",
+    "media": "img/casestudies/Pole1b.JPG",
     "lat": -89.9999,
     "lon": 0.0
   },
@@ -49,7 +49,7 @@
     "startDate": "2013",
     "endDate": "2014",
     "text": "Dynamic and cued MPV data collection and processing at the Former Camp Hale.",
-    "media": "/img/casestudies/Former-Camp-Hale-Graphic_medium.jpg",
+    "media": "img/casestudies/Former-Camp-Hale-Graphic_medium.jpg",
     "lat": 39.4330,
     "lon": -106.3200
   },
@@ -58,7 +58,7 @@
     "startDate": "2013",
     "endDate": "2016",
     "text": "Borehole electromagnetic data processing for classification of buried ordnance at Spring Valley, DC.",
-    "media": "/img/casestudies/SpringValley.jpg",
+    "media": "img/casestudies/SpringValley.jpg",
     "lat": 38.9331,
     "lon": -77.0962
   },
@@ -67,7 +67,7 @@
     "startDate": "2014",
     "endDate": "2015",
     "text": "Dynamic and cued MPV data collection and processing at the Former Waikoloa Maneuver Area.",
-    "media": "/img/casestudies/waikoloa.jpg",
+    "media": "img/casestudies/waikoloa.jpg",
     "lat": 19.9204,
     "lon": -155.8600
   },
@@ -76,7 +76,7 @@
     "startDate": "2014",
     "endDate": "2016",
     "text": "Dynamic and cued advanced sensor data processing at the Former Fort Ord.",
-    "media": "/img/casestudies/FtOrd.jpg",
+    "media": "img/casestudies/FtOrd.jpg",
     "lat": 36.6300,
     "lon": -121.7700
   },
@@ -85,7 +85,7 @@
     "startDate": "2015",
     "endDate": "2016",
     "text": "Advanced classification data processing at the Former Tobyhanna Artillery Range.",
-    "media": "/img/casestudies/Tobyhanna.jpg",
+    "media": "img/casestudies/Tobyhanna.jpg",
     "lat": 41.1870,
     "lon": -75.4164
   },
@@ -94,7 +94,7 @@
     "startDate": "2015",
     "endDate": "2016",
     "text": "Dynamic and cued MPV data collection at Camp Lejeune.",
-    "media": "/img/casestudies/Lejeune1.JPG",
+    "media": "img/casestudies/Lejeune1.JPG",
     "lat": 34.6200,
     "lon": -77.3700
   },
@@ -103,7 +103,7 @@
     "startDate": "2015",
     "endDate": "2017",
     "text": "Advanced classification data processing at the Former Lowry Bombing and Gunnery Range.",
-    "media": "/img/casestudies/Lowry.jpg",
+    "media": "img/casestudies/Lowry.jpg",
     "lat": 39.6870,
     "lon": -104.7500
   },
@@ -112,7 +112,7 @@
     "startDate": "2016",
     "endDate": "2017",
     "text": "Advanced classification data processing at Fort Rucker.",
-    "media": "/img/casestudies/FtRucker.jpg",
+    "media": "img/casestudies/FtRucker.jpg",
     "lat": 31.3477,
     "lon": -85.7243
   },
@@ -121,7 +121,7 @@
     "startDate": "2016",
     "endDate": "2017",
     "text": "Advanced classification data processing at the Former Camp Ellis.",
-    "media": "/img/casestudies/Ellis1.jpg",
+    "media": "img/casestudies/Ellis1.jpg",
     "lat": 40.2737,
     "lon": -90.0534
   },
@@ -130,7 +130,7 @@
     "startDate": "2016",
     "endDate": "2018",
     "text": "Cued MPV data collection and advanced classification processing at Anderson Air Force Base.",
-    "media": "/img/casestudies/Anderson.jpg",
+    "media": "img/casestudies/Anderson.jpg",
     "lat": 13.5839,
     "lon": 144.9244
   },
@@ -139,7 +139,7 @@
     "startDate": "2017",
     "endDate": "2018",
     "text": "Advanced classification data processing at the Former Southwest Proving Ground.",
-    "media": "/img/casestudies/SWPG.jpg",
+    "media": "img/casestudies/SWPG.jpg",
     "lat": 33.7000,
     "lon": -93.5000
   },
@@ -148,7 +148,7 @@
     "startDate": "2017",
     "endDate": "2018",
     "text": "Advanced classification data processing at the Former Fort McClellan.",
-    "media": "/img/casestudies/FortMcClellan.png",
+    "media": "img/casestudies/FortMcClellan.png",
     "lat": 33.7112,
     "lon": -85.7780
   },
@@ -157,7 +157,7 @@
     "startDate": "2017",
     "endDate": "2019",
     "text": "Advanced classification data processing at the Former Castner Range.",
-    "media": "/img/casestudies/Castner.jpg",
+    "media": "img/casestudies/Castner.jpg",
     "lat": 31.8483,
     "lon": -106.5280
   },
@@ -166,7 +166,7 @@
     "startDate": "2018",
     "endDate": "2019",
     "text": "Advanced classification data processing at the Former Camp George West.",
-    "media": "/img/casestudies/CGW1.JPG",
+    "media": "img/casestudies/CGW1.JPG",
     "lat": 39.6820,
     "lon": -105.1390
   },
@@ -175,7 +175,7 @@
     "startDate": "2018",
     "endDate": "2019",
     "text": "Marine classification processing at the former Portsmouth Naval Shipyard.",
-    "media": "/img/casestudies/Portsmouth.jpg",
+    "media": "img/casestudies/Portsmouth.jpg",
     "lat": 43.0804,
     "lon": -70.7394
   },
@@ -183,7 +183,7 @@
     "headline": "Puako, HI",
     "startDate": "2019",
     "text": "Marine classification processing at Puako, Hawaii.",
-    "media": "/img/casestudies/Puako.jpg",
+    "media": "img/casestudies/Puako.jpg",
     "lat": 19.9680,
     "lon": -155.8430
   },
@@ -191,7 +191,7 @@
     "headline": "North Helena Valley, MT",
     "startDate": "2019",
     "text": "UltraTEM detection data collection with BTField at North Helena Valley.",
-    "media": "/img/casestudies/northhelenavalley.png",
+    "media": "img/casestudies/northhelenavalley.png",
     "lat": 46.6368,
     "lon": -112.0100
   },
@@ -199,7 +199,7 @@
     "headline": "Massachusetts Military Reservation, MA",
     "startDate": "2019",
     "text": "Advanced classification data processing at the Massachusetts Military Reservation.",
-    "media": "/img/casestudies/MMR1.jpg",
+    "media": "img/casestudies/MMR1.jpg",
     "lat": 41.6612,
     "lon": -70.5357
   },
@@ -207,7 +207,7 @@
     "headline": "Spencer Artillery Range, TN",
     "startDate": "2019",
     "text": "Advanced classification data processing at the Former Spencer Artillery Range.",
-    "media": "/img/casestudies/Spencer1.jpg",
+    "media": "img/casestudies/Spencer1.jpg",
     "lat": 35.7490,
     "lon": -85.4700
   },
@@ -215,7 +215,7 @@
     "headline": "Fort Ord, CA",
     "startDate": "2019",
     "text": "UltraTEM and MPV detection and classification at the Former Fort Ord.",
-    "media": "/img/casestudies/FordOrd.jpg",
+    "media": "img/casestudies/FordOrd.jpg",
     "lat": 36.6350,
     "lon": -121.7600
   }

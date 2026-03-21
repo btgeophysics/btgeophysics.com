@@ -1,8 +1,8 @@
 ---
 title: "Data processing"
 modalTitle: "Data processing"
-image: "/img/QCToolresize.png"
-modalImage: "/img/QCTool.png"
+image: "img/QCToolresize.png"
+modalImage: "img/QCTool.png"
 weight: 2
 modalId: "services_Processing"
 ---

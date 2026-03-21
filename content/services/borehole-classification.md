@@ -1,7 +1,7 @@
 ---
 title: "Borehole classification"
 modalTitle: "Borehole classification"
-image: "/img/bh1.png"
+image: "img/bh1.png"
 weight: 3
 modalId: "services_Borehole"
 ---
