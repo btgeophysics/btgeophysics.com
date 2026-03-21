@@ -73,7 +73,7 @@ a:focus {
 .navbar-custom .navbar-toggler {
     padding: 4px 6px;
     font-size: 16px;
-    color: #000;
+    color: #fff;
     border: none;
 }
 
@@ -82,15 +82,22 @@ a:focus {
     box-shadow: none;
 }
 
+// Mobile: white text on gray navbar background
 .navbar-custom a,
 .navbar-custom .nav-link {
-    color: #000;
+    color: #fff;
     font-size: 18px;
     font-weight: bold;
 }
 
+.navbar-custom .navbar-collapse {
+    background-color: #9D9D9D;
+    padding: 10px 15px;
+}
+
 .navbar-custom .nav-link {
     transition: background .3s ease-in-out;
+    padding: 8px 0;
 }
 
 .navbar-custom .nav-link:hover {
@@ -113,13 +120,24 @@ a:focus {
     color: #fff;
 }
 
-@media (min-width: 1024px) {
+// Desktop: black text, transparent navbar that collapses to gray
+@media (min-width: 992px) {
     .navbar-custom {
         padding: 20px 0;
         border-bottom: 0;
         letter-spacing: 1px;
         background: transparent;
         transition: background .5s ease-in-out, padding .5s ease-in-out;
+    }
+
+    .navbar-custom a,
+    .navbar-custom .nav-link {
+        color: #000;
+    }
+
+    .navbar-custom .navbar-collapse {
+        background-color: transparent;
+        padding: 0;
     }
 
     .navbar-custom.top-nav-collapse {
