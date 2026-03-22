@@ -103,7 +103,7 @@
     </div>
     <div class="row">
         <div class="col-md-6 text-center">
-            <a href="{{ .Site.Params.timelineURL }}" target="_blank">
+            <a href="#timelineModal" class="portfolio-link" data-bs-toggle="modal">
                 <div class="portfolio-hover">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
@@ -158,8 +158,12 @@
 <!-- Project Map Modal -->
 {{ partial "project-map-modal.html" . }}
 
+<!-- Timeline Modal -->
+{{ partial "timeline-modal.html" . }}
+
 {{ end }}
 
 {{ define "scripts" }}
 {{ partial "project-map-scripts.html" . }}
+{{ partial "timeline-scripts.html" . }}
 {{ end }}

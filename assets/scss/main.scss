@@ -429,6 +429,34 @@ img::selection {
     z-index: 10;
 }
 
+// Timeline
+#timeline-embed {
+    height: 100%;
+    min-height: 500px;
+}
+
+#timelineModal .modal-dialog {
+    max-width: 100%;
+}
+
+#timelineModal .modal-content {
+    padding: 0;
+}
+
+#timelineModal .close-modal {
+    z-index: 10;
+}
+
+#timeline-embed .tl-slide .tl-headline {
+    font-size: 24px !important;
+    line-height: 1.3 !important;
+}
+
+#timeline-embed .tl-timemarker .tl-headline {
+    font-size: 12px !important;
+    line-height: 1.2 !important;
+}
+
 // Font Awesome custom colors
 .fa-ul > li {
     margin-top: 2em;

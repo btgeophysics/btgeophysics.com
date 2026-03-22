@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="{{ "libs/timeline3/css/timeline.css" | relURL }}">
+<script src="{{ "libs/timeline3/js/timeline-min.js" | relURL }}"></script>
+
+<script>
+var timelineInitialized = false;
+
+var timelineData = {
+    "events": [
+        {{ range $i, $p := $.Site.Data.projects }}
+        {{ if $i }},{{ end }}
+        {
+            "start_date": { "year": {{ int $p.startDate }} }
+            {{ with $p.endDate }}, "end_date": { "year": {{ int . }} }{{ end }}
+            , "text": {
+                "headline": {{ $p.headline | htmlEscape }},
+                "text": {{ $p.text | htmlEscape }}
+            }
+            {{ if $p.media }}, "media": { "url": "{{ $p.media | absURL }}" }{{ end }}
+        }
+        {{ end }}
+    ]
+};
+
+document.addEventListener('DOMContentLoaded', function() {
+    var timelineModal = document.getElementById('timelineModal');
+    if (timelineModal) {
+        timelineModal.addEventListener('shown.bs.modal', function() {
+            if (!timelineInitialized) {
+                new TL.Timeline('timeline-embed', timelineData, {
+                    script_path: window.location.origin + '{{ "libs/timeline3/js/" | relURL }}',
+                    start_at_end: true,
+                    initial_zoom: 2,
+                    language: 'en',
+                    font: 'Default',
+                    timenav_height_percentage: 40
+                });
+                timelineInitialized = true;
+            }
+        });
+    }
+});
+</script>

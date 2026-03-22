@@ -13,4 +13,3 @@ disableKinds = ["taxonomy", "term", "section"]
   btfieldURL = "https://btfield.btgeophysics.com"
   fontAwesomeKit = "https://kit.fontawesome.com/d2511de6f4.js"
   googleMapsKey = "AIzaSyAHbs7RLTGUYQomTmSEg2oqjgihEMiIhcM"
-  timelineURL = "https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=173Ji37hK_kc8-4geb0fjRwptCp5btjCkQEh7trbGROU&font=Default&lang=en&initial_zoom=2&height=650&start_at_end=true"
