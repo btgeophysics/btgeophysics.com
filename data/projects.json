@@ -218,5 +218,309 @@
     "media": "img/casestudies/FordOrd.jpg",
     "lat": 36.6350,
     "lon": -121.7600
+  },
+  {
+    "headline": "Boardman Bombing Range, OR",
+    "startDate": "2020",
+    "endDate": "2021",
+    "text": "UltraTEM detection and MPV cued classification at the Former Boardman Bombing Range.",
+    "media": "",
+    "lat": 45.73,
+    "lon": -119.70
+  },
+  {
+    "headline": "Borrego Hotel MRS, CA",
+    "startDate": "2020",
+    "endDate": "2021",
+    "text": "UltraTEM detection and classification at the Borrego Hotel Munitions Response Site.",
+    "media": "",
+    "lat": 33.26,
+    "lon": -116.38
+  },
+  {
+    "headline": "Camp Breckinridge, KY",
+    "startDate": "2020",
+    "endDate": "2021",
+    "text": "UltraTEM detection and classification at the Former Camp Breckinridge.",
+    "media": "",
+    "lat": 37.77,
+    "lon": -87.48
+  },
+  {
+    "headline": "Camp Fannin, TX",
+    "startDate": "2020",
+    "endDate": "2021",
+    "text": "UltraTEM pilot test and remedial action at the Former Camp Fannin.",
+    "media": "",
+    "lat": 32.31,
+    "lon": -95.28
+  },
+  {
+    "headline": "Camp Blanding, FL",
+    "startDate": "2021",
+    "endDate": "2022",
+    "text": "UltraTEM detection and MPV classification at Camp Blanding Joint Training Center.",
+    "media": "",
+    "lat": 29.94,
+    "lon": -82.01
+  },
+  {
+    "headline": "MCAGCC Mojave, CA",
+    "startDate": "2021",
+    "endDate": "2022",
+    "text": "UltraTEM detection and classification at the Marine Corps Air Ground Combat Center.",
+    "media": "",
+    "lat": 34.23,
+    "lon": -116.07
+  },
+  {
+    "headline": "Redstone Arsenal, AL",
+    "startDate": "2021",
+    "endDate": "2023",
+    "text": "UltraTEM detection and classification at Redstone Arsenal / Marshall Space Flight Center.",
+    "media": "",
+    "lat": 34.64,
+    "lon": -86.67
+  },
+  {
+    "headline": "Hawthorne Army Depot, NV",
+    "startDate": "2022",
+    "endDate": "2023",
+    "text": "MPV cued classification at Hawthorne Army Depot Walker Field.",
+    "media": "",
+    "lat": 38.53,
+    "lon": -118.62
+  },
+  {
+    "headline": "Imperial County, CA",
+    "startDate": "2022",
+    "endDate": "2023",
+    "text": "UltraTEM detection and classification at former military ranges near El Centro and Holtville.",
+    "media": "",
+    "lat": 32.79,
+    "lon": -115.57
+  },
+  {
+    "headline": "Utah Test & Training Range, UT",
+    "startDate": "2022",
+    "endDate": "2023",
+    "text": "UltraTEM detection surveys at the Utah Test and Training Range.",
+    "media": "",
+    "lat": 40.72,
+    "lon": -113.02
+  },
+  {
+    "headline": "Badlands Bombing Range, SD",
+    "startDate": "2023",
+    "endDate": "2024",
+    "text": "UltraTEM detection and classification at the Former Badlands Bombing Range.",
+    "media": "",
+    "lat": 43.75,
+    "lon": -102.50
+  },
+  {
+    "headline": "Boise, ID",
+    "startDate": "2023",
+    "endDate": "2024",
+    "text": "UltraTEM detection and classification at the Boise II site.",
+    "media": "",
+    "lat": 43.62,
+    "lon": -116.21
+  },
+  {
+    "headline": "Buckley Space Force Base, CO",
+    "startDate": "2023",
+    "endDate": "2024",
+    "text": "UltraTEM detection and classification at Buckley SFB MB103 Munitions Response Site.",
+    "media": "",
+    "lat": 39.72,
+    "lon": -104.75
+  },
+  {
+    "headline": "Camp Adair, OR",
+    "startDate": "2023",
+    "endDate": "2024",
+    "text": "UltraTEM detection and classification at Former Camp Adair.",
+    "media": "",
+    "lat": 44.68,
+    "lon": -123.22
+  },
+  {
+    "headline": "Camp Elliott, CA",
+    "startDate": "2023",
+    "text": "Advanced classification processing at the Former Camp Elliott.",
+    "media": "",
+    "lat": 32.89,
+    "lon": -117.08
+  },
+  {
+    "headline": "Carrington Island, UT",
+    "startDate": "2023",
+    "text": "UltraTEM detection and MPV cued classification at Carrington Island.",
+    "media": "",
+    "lat": 41.12,
+    "lon": -112.67
+  },
+  {
+    "headline": "Camp Livingston, LA",
+    "startDate": "2023",
+    "endDate": "2024",
+    "text": "UltraTEM detection and classification at the Former Camp Livingston.",
+    "media": "",
+    "lat": 31.33,
+    "lon": -92.39
+  },
+  {
+    "headline": "Waikoloa, HI",
+    "startDate": "2023",
+    "endDate": "2024",
+    "text": "UltraTEM detection and classification at the Former Waikoloa Maneuver Area.",
+    "media": "",
+    "lat": 19.92,
+    "lon": -155.86
+  },
+  {
+    "headline": "Borrego Springs, CA",
+    "startDate": "2024",
+    "text": "UltraTEM detection and classification at Borrego Springs MRS-03 and MRS-05.",
+    "media": "",
+    "lat": 33.26,
+    "lon": -116.38
+  },
+  {
+    "headline": "F.E. Warren AFB, WY",
+    "startDate": "2024",
+    "text": "UltraTEM detection and classification at F.E. Warren Air Force Base.",
+    "media": "",
+    "lat": 41.14,
+    "lon": -104.86
+  },
+  {
+    "headline": "Fort Douglas, UT",
+    "startDate": "2024",
+    "text": "UltraTEM detection and classification at the Former Fort Douglas.",
+    "media": "",
+    "lat": 40.76,
+    "lon": -111.83
+  },
+  {
+    "headline": "Kodiak, AK",
+    "startDate": "2024",
+    "text": "Marine UltraTEM detection survey at Kodiak Island.",
+    "media": "",
+    "lat": 57.79,
+    "lon": -152.41
+  },
+  {
+    "headline": "Camp Lejeune, NC",
+    "startDate": "2024",
+    "text": "Marine UltraTEM detection survey at Camp Lejeune K2 range.",
+    "media": "",
+    "lat": 34.62,
+    "lon": -77.37
+  },
+  {
+    "headline": "North Landing River, VA",
+    "startDate": "2024",
+    "text": "Marine UltraTEM detection survey at North Landing River.",
+    "media": "",
+    "lat": 36.75,
+    "lon": -76.07
+  },
+  {
+    "headline": "Redstone Arsenal, AL",
+    "startDate": "2024",
+    "text": "UltraTEM detection and classification at Redstone Arsenal MRS-3, phase two.",
+    "media": "",
+    "lat": 34.64,
+    "lon": -86.67
+  },
+  {
+    "headline": "Aberdeen Proving Ground, MD",
+    "startDate": "2024",
+    "text": "UltraTEM cross-classification validation study at Aberdeen Proving Ground.",
+    "media": "",
+    "lat": 39.47,
+    "lon": -76.13
+  },
+  {
+    "headline": "Waikoloa, HI",
+    "startDate": "2024",
+    "text": "Continued UltraTEM production at the Former Waikoloa Maneuver Area.",
+    "media": "",
+    "lat": 19.92,
+    "lon": -155.86
+  },
+  {
+    "headline": "Camp Adair, OR",
+    "startDate": "2025",
+    "text": "Continued UltraTEM detection and classification at Former Camp Adair.",
+    "media": "",
+    "lat": 44.68,
+    "lon": -123.22
+  },
+  {
+    "headline": "MCAS Cherry Point, NC",
+    "startDate": "2025",
+    "text": "Marine UltraTEM detection survey at MCAS Cherry Point.",
+    "media": "",
+    "lat": 34.90,
+    "lon": -76.88
+  },
+  {
+    "headline": "Iowa AAP, IA",
+    "startDate": "2025",
+    "text": "UltraTEM detection and classification at the Iowa Army Ammunition Plant.",
+    "media": "",
+    "lat": 40.81,
+    "lon": -91.28
+  },
+  {
+    "headline": "CFB Meaford, ON",
+    "startDate": "2025",
+    "text": "UltraTEM demonstration at Canadian Forces Base Meaford.",
+    "media": "",
+    "lat": 44.60,
+    "lon": -80.60
+  },
+  {
+    "headline": "CFB Petawawa, ON",
+    "startDate": "2025",
+    "text": "UltraTEM demonstration at Canadian Forces Base Petawawa.",
+    "media": "",
+    "lat": 45.90,
+    "lon": -77.30
+  },
+  {
+    "headline": "Pueblo Army Depot, CO",
+    "startDate": "2025",
+    "text": "UltraTEM detection and classification at the Former Pueblo Army Depot.",
+    "media": "",
+    "lat": 38.28,
+    "lon": -104.62
+  },
+  {
+    "headline": "Waikoloa, HI",
+    "startDate": "2025",
+    "text": "UltraTEM detection and classification at Waikoloa Sector 17D.",
+    "media": "",
+    "lat": 19.92,
+    "lon": -155.86
+  },
+  {
+    "headline": "Culebra Island, PR",
+    "startDate": "2026",
+    "text": "UltraTEM detection and classification at the former Naval training range on Culebra Island.",
+    "media": "",
+    "lat": 18.31,
+    "lon": -65.28
+  },
+  {
+    "headline": "Fort Gavilan, CA",
+    "startDate": "2026",
+    "text": "UltraTEM cross-classification at Fort Gavilan.",
+    "media": "",
+    "lat": 35.89,
+    "lon": -120.86
   }
 ]
