@@ -19,27 +19,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-function offsetOverlapping(data) {
-    var groups = {};
-    data.forEach(function(p) {
-        var key = p.lat.toFixed(2) + ',' + p.lon.toFixed(2);
-        if (!groups[key]) groups[key] = [];
-        groups[key].push(p);
-    });
-    Object.keys(groups).forEach(function(key) {
-        var items = groups[key];
-        if (items.length > 1) {
-            var radius = 0.04;
-            items.forEach(function(p, i) {
-                var angle = (2 * Math.PI * i) / items.length;
-                p.lat += radius * Math.cos(angle);
-                p.lon += radius * Math.sin(angle);
-            });
-        }
-    });
-    return data;
-}
-
 function initProjectMap() {
     var mapOptions = {
         zoom: 2,
@@ -54,8 +33,6 @@ function initProjectMap() {
     );
 
     var infoWindow = new google.maps.InfoWindow();
-
-    projectData = offsetOverlapping(projectData);
 
     projectData.forEach(function(project) {
         var marker = new google.maps.Marker({
