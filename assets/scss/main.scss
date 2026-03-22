@@ -430,17 +430,19 @@ img::selection {
 }
 
 // Timeline
-#timeline-embed {
-    height: 100%;
-    min-height: 500px;
-}
-
 #timelineModal .modal-dialog {
     max-width: 100%;
+    height: 100vh;
+    margin: 0;
 }
 
 #timelineModal .modal-content {
     padding: 0;
+    height: 100%;
+}
+
+#timeline-embed {
+    height: 100%;
 }
 
 #timelineModal .close-modal {
